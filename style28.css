@@ -1,0 +1,14 @@
+.hee{
+    transition: 0.5s;
+}
+.hee ::after{
+    content:'';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: aqua;
+}
+.hee:hover::after{
+    width: 100%;
+    transition: 0.5s;
+}
